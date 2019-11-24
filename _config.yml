@@ -11,12 +11,12 @@
 # (Using that method instead of site.owner, in case your posts get cloned with your repo.)
 
 # Site settings
-title: _site name_
-description: _description_
+title: Aida Agayeva
+description: 'Newly Relocated New York Writer'
 owner:
-  name: _your name_ # or company name
+  name: Aida Agayeva # or company name
   url: "http://example.com" # your URL
-first_published: 2010 # if migrating another site, the year of your first publish
+first_published: 2019 # if migrating another site, the year of your first publish
                       # Must be a 4-digit integer year (math is used on it)
 url: "http://example.com" # the base hostname & protocol for this site
 baseurl: "" # the subpath of your site, e.g. /blog
@@ -28,19 +28,21 @@ lang: en-us # used in HTML lang attributes
 # on landing page
 # - set the greeting only if you want to display the first green section
 greeting:
-  title: _Your greeting_  
-  text: _Your detailed greeting text_
+  title: 'About Me'
+  text: 'Writer, blogger, and creator of things. Studied English at UC Berkeley. Fluent in Russian and English.
+  Seeking to engage target audiences and dramatically increase readership through a writing or editing position where I could leverage my writing experience
+  and work ethic. Have written for various online and print medias for 3+ years now and honed writing in a variety of styles for numerous target audiences.
+  Offering a solid background in Education and English in hopes of finding a position to produce written material soon.'
 # - displayed at the bottom
-closing-head: _Your closing_
-closing-para: _Your detailed closing_
+closing-head: 'Questions? Concerns? Requests?'
+closing-para: 'Feel free to contact me if you have any questions or would just like to chat. If you would like to hire me to write for you or your company,
+feel free to reach out as well.'
 
 # on all pages (and the first three you list display with greeting, if included)
 social:
-  twitter: https://twitter.com/_username_
-  github: https://github.com/_username_
-  linkedin-square: https://linkedin.com/in/_username_
-  facebook-official: https://facebook.com/_username_
-  google-plus-square: https://plus.google.com/u/0/+_username_
+  twitter: https://twitter.com/aidaaxo
+  linkedin-square: https://linkedin.com/in/aidaagayeva
+  instagram: https://instagram.com/
   email: /contact/ # you can configure and use this contact page or use your email addy
   #flickr:
   #instagram:

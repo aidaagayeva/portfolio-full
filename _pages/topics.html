@@ -1,9 +1,9 @@
 ---
 key: 2
-title: Topics
-permalink: /topics/
+title: Personal Posts
+permalink: /personal/
 options: fullwidth
-excerpt: Just ramblings and musings? Nay, nay
+excerpt: Find my ramblings, blog posts, projects, and other random things that I'm doing at the moment here.
 image: pic01.jpg
 background-image: pic01.jpg
 ---
@@ -11,24 +11,23 @@ background-image: pic01.jpg
 {%  if site.posts %}{%
       if site.tags.featured %}
   <hr style="margin:0 0 1em 0;" />
-  <h4>Featured</h4>
-  <ul class="post-list">{%
-        for post in site.categories.topics %}{%
-          if post.tags contains "featured" %}
-      <li class="2u 3u(large) 5u(medium) 11u(small)">
-        <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">
-          <div class="container">
-            <p class="post-title">{{ post.title }}</p>
-            <p class="post-date">{{ post.date | date: "%Y-%m-%d" }}</p>
-            <p class="post-desc">{{ post.excerpt | strip_html | truncatewords: 12 }}</p>
-          </div>
-        </a>
-      </li>{%
-          endif %}{%
-        endfor %}
-  </ul>{%
+  <h4>What I'm Doing Now</h4>
+  <p style="margin:0">Currently, I am...</p>
+  <ul>
+    <li>Freelance writing and editing</li>
+    <li>​Living in New York</li>
+    <li>Learning French</li>
+    <li>Writing my first ever book</li>
+    <li>Reading about the art of screenwriting</li>
+  </ul>
+​
+  <span>Last updated December 2019.</span>
+
+  {%
       endif %}
   <hr style="margin:1em 0 1em 0;" />
+
+  <h4 style="margin:0">Blog Posts</h4>
 
     <ul style="list-style-type: none;">{%
       assign p = '9999'

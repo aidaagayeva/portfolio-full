@@ -1,13 +1,15 @@
 ---
 priority: 0.6
-title: Project X
-excerpt: An example of a and b
+title: Miscellaneous
+excerpt: Published poetry, research papers, and more
 categories: works
 background-image: works-sample.png
 tags:
-  - This
-  - That
-  - The other
+  - Poetry
+  - Research
+  - Seminar
+  - University
+
 ---
 
 #### Results

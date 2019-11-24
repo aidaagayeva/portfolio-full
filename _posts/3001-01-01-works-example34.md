@@ -1,13 +1,13 @@
 ---
 priority: 0.7
-title: Technical Writing
-excerpt: Assisting readers with understanding more about technical concepts and topics
+title: Content/Copywriting
+excerpt: Promotional text, selling brands and ideas
 categories: works
 background-image: works-sample.png
 tags:
-  - Technical Writing
-  - Freelance
-
+  - Copywriting
+  - Promotional
+  - Advertising
 ---
 
 #### Results

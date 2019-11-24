@@ -1,13 +1,13 @@
 ---
 priority: 0.6
-title: Project Z
-excerpt: An example of d and e
+title: Articles
+excerpt: Published articles
 categories: works
 background-image: works-sample.png
 tags:
-  - This
-  - That
-  - The other
+  - Content Writing
+  - Freelance
+  - Creative Writing
 ---
 
 #### Results

@@ -9,6 +9,7 @@ $baseurl: '{{ site.baseurl }}/images';
 @import 'libs/mixins';
 @import 'font-awesome.min.css';
 @import url('https://fonts.googleapis.com/css?family=Open+Sans:400,400italic,600,600italic,800,800italic');
+@import url('https://fonts.googleapis.com/css?family=IM+Fell+English&display=swap');
 @import url(https://fonts.googleapis.com/css?family=Lora:400,400italic,700,700italic);
 @import 'syntax-highlighting.css';
 @import 'vendor/disqus.css';
@@ -20,6 +21,8 @@ $baseurl: '{{ site.baseurl }}/images';
 */
 
 	@import 'libs/skel';
+
+	@font-face {font-family: "Meow";src: url(http://static.tumblr.com/kauezwz/YlIlz8nop/theonlyexception.ttf) format("truetype");}
 
 	@include skel-breakpoints((
 		xlarge: '(max-width: 1680px)',
@@ -43,7 +46,7 @@ $baseurl: '{{ site.baseurl }}/images';
 	}
 
 	body {
-		background: _palette(bg);
+		background: #f9f7ee;
 
 		&.is-loading {
 			*, *:before, *:after {
@@ -56,7 +59,8 @@ $baseurl: '{{ site.baseurl }}/images';
 	body, input, select, textarea {
 		color: _palette(fg);
 		font-family: _font(ctrl-family);
-		font-size: _font(ctrl-size-xxlarge);
+		// font-size: _font(ctrl-size-xxlarge);
+		font-size: 12pt!important;
 		font-weight: _font(weight);
 		letter-spacing: _size(letter-spacing);
 		line-height: _font(ctrl-lheight-normal);
@@ -195,6 +199,12 @@ $baseurl: '{{ site.baseurl }}/images';
 		}
 	}
 
+	.cursive-header {
+		padding-top: 2px;
+		font-size: 35px!important;
+		font-family: "Meow", georgia;
+	}
+
   article .inner {
   	/*
   	// If choosing serif font for headers
@@ -211,7 +221,8 @@ $baseurl: '{{ site.baseurl }}/images';
   	}
   	*/
     p, dt, dd, p span, th, td, li, blockquote, #post-date {
-      font-family: _font(prose-family);
+      // font-family: _font(prose-family);
+			font-family: ("IM Fell English", serif);
       font-size: _font(prose-size-large);
       font-weight: _font(prose-weight);
       line-height: _font(prose-lheight-normal);
@@ -229,7 +240,8 @@ $baseurl: '{{ site.baseurl }}/images';
       font-size: _font(inline-fixed-size);
     }
     .actions * {
-      font-family: _font(ctrl-family);
+      // font-family: _font(ctrl-family);
+			font-family: ("IM Fell English", serif);
     }
     li {
       margin-left: 0.2em;
@@ -1140,6 +1152,10 @@ $baseurl: '{{ site.baseurl }}/images';
 		.content {
 			@include padding(2em, 4em);
 			@include vendor('order', '2');
+
+			h2 {
+				color: #aaa993!important;
+			}
 		}
 		.content-wrap {
 			width: 60%;
@@ -1153,9 +1169,11 @@ $baseurl: '{{ site.baseurl }}/images';
 		}
 
 		@for $i from 1 through _misc(max-spotlights) {
-			$j: 0.075 * $i;
+			$j: 1 * $i;
 			&:nth-child(#{$i}) {
-				background-color: rgba(0,0,0, $j);
+				// background-color: rgba(249,247,238, $j);
+				background-color: #fff;
+				color: #aaa993!important;
 			}
 		}
 
@@ -1236,7 +1254,8 @@ $baseurl: '{{ site.baseurl }}/images';
 					}
 
 					p {
-						color: _palette($p, fg);
+						// color: _palette($p, fg);
+						color: #aaa993!important;
 					}
 				}
 			}
@@ -1404,7 +1423,7 @@ $baseurl: '{{ site.baseurl }}/images';
 			}
 
     // Post listing
-    
+
       .post-list {
 				margin: 0;
     		/* width: 100%; */
@@ -1412,7 +1431,7 @@ $baseurl: '{{ site.baseurl }}/images';
     		vertical-align: top;
     		display: block;
     		font-size: 1em;
-    
+
     		> li {
     			vertical-align: top;
     			display: inline-block;
@@ -1429,7 +1448,8 @@ $baseurl: '{{ site.baseurl }}/images';
     			}
     			*/
     			.post-date {
-						font-family: _font(ctrl-family);
+						// font-family: _font(ctrl-family);
+						font-family: ("IM Fell English", serif);
     				font-style: italic;
     				padding: 0 0 5px 0;
     				margin: 0;
@@ -1446,7 +1466,8 @@ $baseurl: '{{ site.baseurl }}/images';
     			.post-title {
     				padding: 0;
     				margin: 0;
-						font-family: _font(ctrl-family);
+						// font-family: _font(ctrl-family);
+						font-family: ("IM Fell English", serif);
     				font-weight: _font(weight-bold);
     				font-size: _font(ctrl-size-small);
     				line-height: _font(ctrl-lheight-small);
@@ -1457,7 +1478,8 @@ $baseurl: '{{ site.baseurl }}/images';
     			.post-desc{
     				padding: 0;
     				margin: 0;
-						font-family: _font(ctrl-family);
+						// font-family: _font(ctrl-family);
+						font-family: ("IM Fell English", serif);
     				font-size: _font(ctrl-size-xsmall);
     				line-height: _font(ctrl-lheight-smaller);
 						white-space: nowrap;
@@ -1486,15 +1508,15 @@ $baseurl: '{{ site.baseurl }}/images';
 						text-decoration: none;
 						text-transform: uppercase;
 						text-align: center;
-												
+
 						&:hover {
 							background: _palette($p, border-bg);
 						}
-				
+
 						&:active {
 							background: _palette($p, border2-bg);
 						}
-				
+
 					}
     		}
     	}
@@ -1516,7 +1538,8 @@ $baseurl: '{{ site.baseurl }}/images';
       		margin: 0 4px 10px 0;
       	}
       	.tech {
-      		font-family: _font(ctrl-family);
+      		// font-family: _font(ctrl-family);
+					font-family: ("IM Fell English", serif);
       		font-size: _font(ctrl-size-xsmall);
       	}
       }
@@ -1602,6 +1625,10 @@ $baseurl: '{{ site.baseurl }}/images';
 
 		&.style1 {
 			@include wrapper(accent1);
+			background-color: white!important;
+			h2 {
+				color: #aaa993!important;
+			}
 		}
 
 		&.style2 {
@@ -1673,7 +1700,8 @@ $baseurl: '{{ site.baseurl }}/images';
 		@include vendor('transform', 'translateX(20em)');
 		@include vendor('transition', 'transform #{_duration(menu)} ease');
 		-webkit-overflow-scrolling: touch;
-		background: _palette(accent1, bg);
+		// background: _palette(accent1, bg);
+		background: #f9f7ee;
 		color: _palette(accent1, fg-bold);
 		height: 100%;
 		max-width: 80%;
@@ -1693,7 +1721,8 @@ $baseurl: '{{ site.baseurl }}/images';
 				border-top: solid 1px _palette(accent1, border);
 				margin: 0.5em 0 0 0;
 				padding: 0.5em 0 0 0;
-				font-family: _font(ctrl-family);
+				// font-family: _font(ctrl-family);
+				font-family: ("IM Fell English", serif);
 
 				&:first-child {
 					border-top: 0 !important;
@@ -1703,7 +1732,8 @@ $baseurl: '{{ site.baseurl }}/images';
 
 				> a {
 					border: 0;
-					color: inherit;
+					// color: inherit;
+					color: #bfbeae;
 					display: block;
 					font-size: _font(hdr-size-xsmall);
 					letter-spacing: _size(letter-spacing-alt);
@@ -1756,7 +1786,8 @@ $baseurl: '{{ site.baseurl }}/images';
 
 	#header {
 		@include vendor('transition', 'background-color #{_duration(transitions)} ease');
-		background: _palette(bg);
+		// background: _palette(bg);
+		background: #bfbeae;
 		height: 3em;
 		left: 0;
 		line-height: 3em;
@@ -2135,7 +2166,8 @@ $baseurl: '{{ site.baseurl }}/images';
 			}
 
 			@include breakpoint(xlarge) {
-				@include padding(8em, 0);
+				// @include padding(8em, 0);
+				padding: 8em 12em;
 			}
 
 			@include breakpoint(large) {
@@ -2169,23 +2201,26 @@ $baseurl: '{{ site.baseurl }}/images';
 
 	#footer {
 		@include padding(6em, 0);
-		background-color: darken(_palette(bg), 8);
+		// background-color: darken(_palette(bg), 8);
+		background-color: rgba(255, 255, 255, 0.9)!important;
 		text-align: center;
 
 		.icons {
 			font-size: 1.5em;
 
 			a {
-				color: _palette(fg-light);
+				// color: _palette(fg-light);
+				color: rgba(170, 169, 147, 0.9);
 
 				&:hover {
-					color: _palette(fg);
+					color: rgba(170, 169, 147, 0.7);
 				}
 			}
 		}
 
 		.copyright {
-			color: _palette(fg-light);
+			// color: _palette(fg-light);
+			color: #aaa993;
 			font-size: 0.8em;
 			letter-spacing: _size(letter-spacing-alt);
 			list-style: none;
@@ -2206,10 +2241,12 @@ $baseurl: '{{ site.baseurl }}/images';
 				}
 
 				a {
-					color: inherit;
+					// color: inherit;
+					color: #aaa993;
 
 					&:hover {
-						color: _palette(fg);
+						// color: _palette(fg);
+						color: rgba(170, 169, 147, 0.7);
 					}
 				}
 
@@ -2271,7 +2308,8 @@ $baseurl: '{{ site.baseurl }}/images';
 
 /* font variant */
 	.ui {
-		font-family: _font(ctrl-family);
+		// font-family: _font(ctrl-family);
+		font-family: ("IM Fell English", serif);
 	}
 
 /* back/next links in works */
@@ -2323,14 +2361,16 @@ $baseurl: '{{ site.baseurl }}/images';
   		}
   	}
   	.btitle {
-  		font-family: _font(prose-family);
+  		// font-family: _font(prose-family);
+			font-family: ("IM Fell English", serif);
   		padding-right: 36px;
   		@include breakpoint(small) {
   			padding-right: 0;
   		}
   	}
   	.ntitle {
-  		font-family: _font(prose-family);
+  		// font-family: _font(prose-family);
+			font-family: ("IM Fell English", serif);
   		padding-left: 32px;
   		@include breakpoint(small) {
   			padding-left: 0;
@@ -2341,7 +2381,8 @@ $baseurl: '{{ site.baseurl }}/images';
   .nobullet { list-style-type: none; }
 
   .works_inprogress {
-  	font-family: _font(prose-family);
+  	// font-family: _font(prose-family);
+		font-family: ("IM Fell English", serif);
   	width:100%;
   	text-align:center;
   	margin-bottom:16px;
