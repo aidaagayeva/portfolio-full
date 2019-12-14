@@ -8,8 +8,7 @@ image: pic01.jpg
 background-image: pic01.jpg
 ---
 
-{%  if site.posts %}{%
-      if site.tags.featured %}
+{%  if site.posts %}
   <hr style="margin:0 0 1em 0;" />
   <h4>What I'm Doing Now</h4>
   <p style="margin:0">Currently, I am...</p>
@@ -23,8 +22,6 @@ background-image: pic01.jpg
 ​
   <span>Last updated December 2019.</span>
 
-  {%
-      endif %}
   <hr style="margin:1em 0 1em 0;" />
 
   <h4 style="margin:0">Blog Posts</h4>

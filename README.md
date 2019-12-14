@@ -43,11 +43,11 @@ preview how your site looks and functions, and properly view the theme's User Gu
    **`pic02.jpg`** | The works image
 
 1. From the repo's root directory, start Jekyll to preview as you write.
-   
+
    ```
    bundle exec jekyll serve --future --drafts
    ```
-      
+
 1. Open a browser to http://localhost:4000 (or the port number that jekyll indicates to open).
 
 
@@ -63,7 +63,7 @@ preview how your site looks and functions, and properly view the theme's User Gu
 
    If you're building your site on Windows (like me) you can use the `site.bat` file;
    otherwise, just use the Jekyll commands as indicated in the site command reference below.
-   
+
    If you use WinSCP to sync with your remote site, you can use the _publish_ option.
    To publish with WinSCP, set up a `_site.env` file as described in the comments of `site.bat`,
    being _particularly careful_ to list your site remote path and excludes correctly because the
@@ -94,4 +94,3 @@ This is a theme in the old sense of the word. This is not a newer _gem-based_ th
 
 ## License
 MIT
-
