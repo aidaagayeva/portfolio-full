@@ -22,7 +22,7 @@ $baseurl: '{{ site.baseurl }}/images';
 
 	@import 'libs/skel';
 
-	@font-face {font-family: "Meow";src: url(http://static.tumblr.com/kauezwz/YlIlz8nop/theonlyexception.ttf) format("truetype");}
+	@font-face {font-family: "Meow";src: url(https://static.tumblr.com/kauezwz/YlIlz8nop/theonlyexception.ttf) format("truetype");}
 
 	@include skel-breakpoints((
 		xlarge: '(max-width: 1680px)',
