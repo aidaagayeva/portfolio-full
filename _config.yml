@@ -12,7 +12,7 @@
 
 # Site settings
 title: Aida Agayeva
-description: 'Writer, Journalist, and Content Strategist'
+description: 'Writer. Journalist. Content Strategist.'
 owner:
   name: Aida Agayeva # or company name
   url: "http://example.com" # your URL
@@ -28,11 +28,8 @@ lang: en-us # used in HTML lang attributes
 # on landing page
 # - set the greeting only if you want to display the first green section
 greeting:
-  title: 'About Me'
-  text: 'Writer, blogger, and creator of things. Studied English at UC Berkeley. Fluent in Russian and English.
-  Seeking to engage target audiences and dramatically increase readership through a writing or editing position where I could leverage my writing experience
-  and work ethic. Have written for various online and print medias for 3+ years now and honed writing in a variety of styles for numerous target audiences.
-  Offering a solid background in Education and English in hopes of finding a position to produce written material soon.'
+  title: 'About'
+  text: 'Aida is a writer, journalist, and creator of things. With a B.A. in English from UC Berkeley, she has since engaged target audiences through her writing and editing positions. As an immigrant from Azerbaijan, she is fluent in both Russian and English. In the course of her career, she has written for various online and print medias in a variety of styles and genres. Her passions include all things lifestyle related, online culture, art, and education.'
 # - displayed at the bottom
 closing-head: 'Questions? Concerns? Requests?'
 closing-para: 'Feel free to contact me if you have any questions or would just like to chat. If you would like to hire me to write for you or your company,
@@ -40,9 +37,9 @@ feel free to reach out as well.'
 
 # on all pages (and the first three you list display with greeting, if included)
 social:
-  twitter: https://twitter.com/aidaaxo
+  twitter: https://www.twitter.com/aidaawrites
   linkedin-square: https://linkedin.com/in/aidaagayeva
-  instagram: https://www.instagram.com/wordsbyaida/
+  instagram: https://www.instagram.com/aidasarchives/
   email: mailto:agayevaida@gmail.com # you can configure and use this contact page or use your email addy
   #flickr:
   #instagram:
