@@ -2,14 +2,14 @@
 priority: 0.9
 title: Content/Copywriting
 excerpt: Promotional text, selling brands and ideas
-categories: works
 background-image: /images/works-sample.png
+categories:
+  - works
 tags:
   - Copywriting
   - Promotional
   - Advertising
 ---
-
 #### Web Content
 
 - [Metis Construction](https://www.metisconst.com/services/kitchen-remodel)
