@@ -3,7 +3,7 @@ priority: 0.8
 title: Technical Writing
 excerpt: Assisting readers with understanding more about technical concepts and topics
 categories: works
-background-image: works-sample.png
+background-image: /images/works-sample.png
 tags:
   - Technical Writing
   - Freelance

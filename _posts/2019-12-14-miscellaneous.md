@@ -3,7 +3,7 @@ priority: 0.7
 title: Miscellaneous
 excerpt: Published poetry, research papers, and more
 categories: works
-background-image: works-sample.png
+background-image: /images/works-sample.png
 tags:
   - Poetry
   - Research

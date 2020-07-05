@@ -3,7 +3,7 @@ priority: 0.9
 title: Content/Copywriting
 excerpt: Promotional text, selling brands and ideas
 categories: works
-background-image: works-sample.png
+background-image: /images/works-sample.png
 tags:
   - Copywriting
   - Promotional
