@@ -51,5 +51,6 @@ collections:
         fields:
           - { label: 'Website title', name: 'title', widget: 'string' }
           - { label: "Front page subtitle", name: "description", widget: "string"}
+          - { label: "Front page about section text", name: "greeting-text", widget: "string"}
           - { label: "Front page contact me text", name: "closing-para", widget: "string"}
           - { label: 'Resume file', name: 'resume-file', widget: 'file' }
