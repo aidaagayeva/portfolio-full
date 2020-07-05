@@ -19,7 +19,6 @@ background-image: /images/pic01.jpg
 * Writing my first ever book.
 * Reading about the art of screenwriting.
 * Brushing up on my French.
-* test
   ​
 
 <span>Last updated July 2020.</span>
