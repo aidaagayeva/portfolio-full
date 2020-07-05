@@ -10,9 +10,13 @@
 # Also, for your post bylines, add author info for yourself in `_data/authors.yml`.
 # (Using that method instead of site.owner, in case your posts get cloned with your repo.)
 
+
+# ALSO SEE FILE IN _data/data.yml
+
+
 # Site settings
-title: Aida Agayeva
-description: 'Writer. Journalist. Content Strategist.'
+# title: Aida Agayeva
+# description: 'Writer. Journalist. Content Strategist.'
 owner:
   name: Aida Agayeva # or company name
   url: "https://aidaagayeva.com" # your URL
@@ -29,18 +33,18 @@ lang: en-us # used in HTML lang attributes
 # - set the greeting only if you want to display the first green section
 greeting:
   title: 'About'
-  text: 'Aida is a writer, journalist, and creator of things. With a B.A. in English from UC Berkeley, she has since engaged target audiences through her writing and editing positions. As an immigrant from Azerbaijan, she is fluent in both Russian and English. In the course of her career, she has written for various online and print medias in a variety of styles and genres. Her passions include all things lifestyle related, online culture, art, and education.'
+  # text: 'Aida is a writer, journalist, and creator of things. With a B.A. in English from UC Berkeley, she has since engaged target audiences through her writing and editing positions. As an immigrant from Azerbaijan, she is fluent in both Russian and English. In the course of her career, she has written for various online and print medias in a variety of styles and genres. Her passions include all things lifestyle related, online culture, art, and education.'
 # - displayed at the bottom
 closing-head: 'Questions? Concerns? Requests?'
-closing-para: 'Feel free to contact me if you have any questions or would just like to chat. If you would like to hire me to write for you or your company,
-feel free to reach out as well.'
+# closing-para: 'Feel free to contact me if you have any questions or would just like to chat. If you would like to hire me to write for you or your company,
+# feel free to reach out as well.'
 
 # on all pages (and the first three you list display with greeting, if included)
-social:
-  twitter: https://www.twitter.com/aidaawrites
-  linkedin-square: https://linkedin.com/in/aidaagayeva
-  instagram: https://www.instagram.com/aidasarchives/
-  email: mailto:agayevaida@gmail.com # you can configure and use this contact page or use your email addy
+# social:
+#   twitter: https://www.twitter.com/aidaawrites
+#   linkedin-square: https://linkedin.com/in/aidaagayeva
+#   instagram: https://www.instagram.com/aidasarchives/
+#   email: mailto:agayevaida@gmail.com # you can configure and use this contact page or use your email addy
   #flickr:
   #instagram:
   #youtube-square:
@@ -75,7 +79,7 @@ social:
   #tripadvisor:
   #amazon:
 
-resume-file: /images/resume.pdf
+# resume-file: /images/resume.pdf
 
 # - title for your blog's featured posts
 features-title: Featured topics

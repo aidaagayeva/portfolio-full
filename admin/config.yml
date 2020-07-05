@@ -25,21 +25,23 @@ collections:
     editor:
       preview: false
     files:
-      - label: 'Personal Page'
+      - label: 'Personal Posts Page'
         name: 'personal'
         file: '_pages/topics.md'
         fields:
           - { label: 'Title', name: 'title', widget: 'string' }
           - {label: "Excerpt", name: "excerpt", widget: "string"}
+          - {label: "Front page image", name: "image", widget: "image"}
           - {label: "Background Image", name: "background-image", widget: "image"}
           - { label: 'Body', name: 'body', widget: 'markdown' }
-      # - label: 'Portfolio Page'
-      #   name: 'works'
-      #   file: '_pages/topics.md'
-      #   fields:
-      #     - { label: 'Title', name: 'title', widget: 'string' }
-      #     - {label: "Excerpt", name: "excerpt", widget: "string"}
-      #     - {label: "Background Image", name: "background-image", widget: "image"}
+      - label: 'Portfolio Page'
+        name: 'works'
+        file: '_pages/works.html'
+        fields:
+          - { label: 'Title', name: 'title', widget: 'string' }
+          - {label: "Excerpt", name: "excerpt", widget: "string"}
+          - {label: "Front page image", name: "image", widget: "image"}
+          - {label: "Background Image", name: "background-image", widget: "image"}
   - name: 'settings'
     label: 'Site settings'
     editor:

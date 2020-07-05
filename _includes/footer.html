@@ -1,7 +1,7 @@
 <!-- Footer -->
 <footer id="footer">
   <ul class="icons">{%
-  for socloc in site.social %}{%
+  for socloc in site.data.data.social %}{%
     if socloc[1] %}{%
       if socloc[0] == 'email' %}
     <li><a target="_blank" href="{%
@@ -26,7 +26,7 @@
       endif %}{%
     endif %}{{ thisyear }} {%
     if site.owner.name %}{{ site.owner.name }}{%
-    else %}{{ site.title }}{%
+    else %}{{ site.data.data.title }}{%
     endif %}</li>
   </ul>
 </footer>
