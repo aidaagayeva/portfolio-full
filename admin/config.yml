@@ -13,11 +13,10 @@ collections:
     editor:
       preview: false
     fields: # The fields for each document, usually in front matter
-      - {label: "Priority", name: "priority", widget: "number"}
+      - {label: "Priority on portfolio page", name: "priority", widget: "number"}
       - {label: "Title", name: "title", widget: "string"}
-      - {label: "Excerpt", name: "excerpt", widget: "string"}
+      - {label: "Excerpt", name: "excerpt", widget: "text"}
       - {label: "Background Image", name: "background-image", widget: "image"}
-      - {label: "Categories", name: "categories", widget: "list", default: ["works"]}
       - {label: "Tags", name: "tags", widget: "list"}
       - {label: "Body", name: "body", widget: "markdown"}
   - name: 'pages'
@@ -30,7 +29,7 @@ collections:
         file: '_pages/topics.md'
         fields:
           - { label: 'Title', name: 'title', widget: 'string' }
-          - {label: "Excerpt", name: "excerpt", widget: "string"}
+          - {label: "Excerpt", name: "excerpt", widget: "text"}
           - {label: "Front page image", name: "image", widget: "image"}
           - {label: "Background Image", name: "background-image", widget: "image"}
           - { label: 'Body', name: 'body', widget: 'markdown' }
@@ -39,7 +38,7 @@ collections:
         file: '_pages/works.html'
         fields:
           - { label: 'Title', name: 'title', widget: 'string' }
-          - {label: "Excerpt", name: "excerpt", widget: "string"}
+          - {label: "Excerpt", name: "excerpt", widget: "text"}
           - {label: "Front page image", name: "image", widget: "image"}
           - {label: "Background Image", name: "background-image", widget: "image"}
   - name: 'settings'
@@ -52,9 +51,9 @@ collections:
         file: '_data/data.yml'
         fields:
           - { label: 'Website title', name: 'title', widget: 'string' }
-          - { label: "Front page subtitle", name: "description", widget: "string"}
-          - { label: "Front page about section text", name: "greeting-text", widget: "string"}
-          - { label: "Front page contact me text", name: "closing-para", widget: "string"}
+          - { label: "Front page subtitle", name: "description", widget: "text"}
+          - { label: "Front page about section text", name: "greeting-text", widget: "text"}
+          - { label: "Front page contact me text", name: "closing-para", widget: "text"}
           - { label: 'Resume file', name: 'resume-file', widget: 'file', allow_multiple: false }
           - label: 'Socials'
             name: social
