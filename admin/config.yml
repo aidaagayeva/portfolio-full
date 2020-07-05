@@ -5,8 +5,8 @@ backend:
 media_folder: "images"
 
 collections:
-  - name: "pages" # Used in routes, e.g., /admin/collections/blog
-    label: "Pages" # Used in the UI
+  - name: "works" # Used in routes, e.g., /admin/collections/blog
+    label: "Works" # Used in the UI
     folder: "_posts/" # The path to the folder where the documents are stored
     create: true # Allow users to create new documents in this collection
     slug: "{{year}}-{{month}}-{{day}}-{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
@@ -20,3 +20,16 @@ collections:
       - {label: "Categories", name: "categories", widget: "list", default: ["works"]}
       - {label: "Tags", name: "tags", widget: "list"}
       - {label: "Body", name: "body", widget: "markdown"}
+  - name: 'pages'
+    label: 'Pages'
+    editor:
+      preview: false
+    files:
+      - label: 'Personal Page'
+        name: 'personal'
+        file: '_pages/topics.md'
+        fields:
+          - { label: 'Title', name: 'title', widget: 'string' }
+          - {label: "Excerpt", name: "excerpt", widget: "string"}
+          - {label: "Background Image", name: "background-image", widget: "image"}
+          - { label: 'Body', name: 'body', widget: 'markdown' }
