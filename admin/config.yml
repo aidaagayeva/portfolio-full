@@ -33,13 +33,13 @@ collections:
           - {label: "Excerpt", name: "excerpt", widget: "string"}
           - {label: "Background Image", name: "background-image", widget: "image"}
           - { label: 'Body', name: 'body', widget: 'markdown' }
-      - label: 'Portfolio Page'
-        name: 'works'
-        file: '_pages/topics.md'
-        fields:
-          - { label: 'Title', name: 'title', widget: 'string' }
-          - {label: "Excerpt", name: "excerpt", widget: "string"}
-          - {label: "Background Image", name: "background-image", widget: "image"}
+      # - label: 'Portfolio Page'
+      #   name: 'works'
+      #   file: '_pages/topics.md'
+      #   fields:
+      #     - { label: 'Title', name: 'title', widget: 'string' }
+      #     - {label: "Excerpt", name: "excerpt", widget: "string"}
+      #     - {label: "Background Image", name: "background-image", widget: "image"}
   - name: 'settings'
     label: 'Site settings'
     editor:
@@ -47,7 +47,7 @@ collections:
     files:
       - label: 'Settings'
         name: 'config'
-        file: '_config.yml'
+        file: '_data/data.yml'
         fields:
           - { label: 'Website title', name: 'title', widget: 'string' }
           - { label: "Front page subtitle", name: "description", widget: "string"}
