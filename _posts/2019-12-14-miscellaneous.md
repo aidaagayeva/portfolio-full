@@ -13,9 +13,8 @@ tags:
 ---
 #### Poetry
 
-- [Poetry published in Contra Costa Literary Magazine 'The Optimist' (Pages 12-13)](https://issuu.com/losmedanos/docs/the_optimist)
-- ...
+* [Poetry published in Contra Costa Literary Magazine 'The Optimist' (Pages 12-13)](https://issuu.com/losmedanos/docs/the_optimist)
 
 #### Research Paper
 
-- [The Importance of Biblical Images and their Meaning](/images/research_paper.pdf)
+* [The Importance of Biblical Images and their Meaning](/images/research_paper.pdf)
