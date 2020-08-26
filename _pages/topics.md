@@ -21,6 +21,6 @@ background-image: /images/pic01.jpg
 * Brushing up on my French.
   ​
 
-<span>Last updated July 2020.</span>
+<span>Last updated August 2020.</span>
 
 {% include blog-posts.html %}
