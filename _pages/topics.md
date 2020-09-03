@@ -21,15 +21,11 @@ background-image: /images/pic01.jpg
 * Brushing up on my French.
 * Applying to graduate school.
 
-
-
 #### Interviews
 
 * [Swaye Media: Professional Artists Corner](https://swayemedia.wordpress.com/2020/07/31/aida-agaveya-writer/)
 * [Teen Vogue: Canceled Internships](https://www.teenvogue.com/story/internships-canceled-coronavirus)
 
-
-
-<span>Last updated August 2020.</span>
+<span>Last updated Sept. 2020.</span>
 
 {% include blog-posts.html %}
