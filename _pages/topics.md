@@ -6,8 +6,8 @@ options:
   - fullwidth
 excerpt: Find my ramblings, blog posts, projects, and other random things that
   I'm doing at the moment here.
-image: /images/pic01.jpg
-background-image: /images/49aebf416b366d86f0bed1c2ddcc0cf7-1.jpg
+image: /images/000823500005-copy.jpg
+background-image: /images/000823500005-copy.jpg
 ---
 <hr style="margin:0 0 1em 0;" />
 
