@@ -17,7 +17,7 @@ background-image: /images/000823500005-copy.jpg
 
 * Freelance writing and editing.
 * Writing my first ever book.
-* Reading about the art of screenwriting.
+* Mentoring young students at [Dweebs Global](https://dweebsglobal.org).
 * Brushing up on my French.
 * Applying to graduate school.
 
