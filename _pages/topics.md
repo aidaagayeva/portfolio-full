@@ -7,7 +7,7 @@ options:
 excerpt: Find my ramblings, blog posts, projects, and other random things that
   I'm doing at the moment here.
 image: /images/img_5594_aida-copy.jpg
-background-image: /images/img_5594_aida-copy.jpg
+background-image: /images/tumblr_421f37c1ba81b0577662f8d74f693808_66c2d15d_1280.jpg
 ---
 <hr style="margin:0 0 1em 0;" />
 
