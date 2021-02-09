@@ -26,6 +26,6 @@ background-image: /images/tumblr_421f37c1ba81b0577662f8d74f693808_66c2d15d_1280.
 * [Swaye Media: Professional Artists Corner](https://www.swayemedia.com/2020/07/31/aida-agaveya-writer/)
 * [Teen Vogue: Canceled Internships](https://www.teenvogue.com/story/internships-canceled-coronavirus)
 
-<span>Last updated Dec. 2020.</span>
+<span>Last updated Feb. 2021.</span>
 
 {% include blog-posts.html %}
